@@ -12,6 +12,7 @@ This simple script is meant to be run in a HiveOS shell and its purpose is to au
 5. Where possible, use an ethernet connection to the HiveOS machine. If ethernet is not available, then use a plugin-in wifi expander that has an ethernet output. Personally, I have been using the TP-Link AC750 WiFi Range Extender (RE220) with a power strip that has surge protection.
 6. If placing the HiveOS machine at a friend's or family's house (remote location), use a smart plug so that you can remote power cycle the HiveOS machine.
 7. You will need to ensure that either: a.) the modem-router forwards port **5995** to the HiveOS installation on the local network; and/or b.) UPnP is active in the router's ettings.
+8. After downloading the script, you will need to **chmod +x** the script in order to run it.
 
 ## Security
 While possible, it is not recommended that users hold a balance on these installations. Building on this, it is not recommended to enable Proof-of-Stake ("PoS") on *pulsard* through HiveOS.
