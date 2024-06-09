@@ -1,9 +1,6 @@
 # plsr-hiveos
 Pulsar Coin ("PLSR") transaction node installer for HiveOS
 
-# links
-[Linktree](https://linktr.ee/teampulsarcoin) &#x1F538; [Discord](https://discord.com/invite/VuDakSctNX) &#x1F538; [Explorer](https://explorer.pulsarcoin.info/) &#x1F538; [Twitter](https://twitter.com/TeamPulsarCoin) &#x1F538; [YouTube](https://www.youtube.com/@TeamPulsarCoin) &#x1F538; [Wallet](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/releases) &#x1F538; [Web](https://pulsarcoin.info/) &#x1F538; [Wiki](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki) &#x1F538; [Team PLSR Wallet](https://explorer.pulsarcoin.info/address/?address=PuxaWK9Bizsrmk3N4EfxFsvk2k5C6DbikR) &#x1F538; [Team LTC Wallet](https://litecoinspace.org/address/ltc1q5vn626f996lx3lgc7s7rfyjzwkq6jm6fh9g2ly9c528w5jgsrr0szsfd9e)
-
 # purpose
 1. These simple scripts are meant to be run in a HiveOS shell; their purpose supports Pulsar Coin in a HiveOS environment. 
 2. Raise awareness to boost [Investment Mining of Pulsar](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki/03-PLSR-Acquisition#-investment-mining).
@@ -29,5 +26,17 @@ Pulsar Coin ("PLSR") transaction node installer for HiveOS
 7. You will need to ensure that either: a.) the modem-router forwards port **5995** to the HiveOS installation on the local network; and/or b.) UPnP is active in the router's ettings.
 8. After downloading the script, you will need to **chmod +x** the script in order to run it.
 
-# Security
+# security
 While possible, it is not recommended that users hold a balance on these installations. Building on this, it is not recommended to enable Proof-of-Stake ("PoS") on *pulsard* through HiveOS.
+
+# links
+&#x1F538; [linktree](https://linktr.ee/teampulsarcoin)
+<br>&#x1F538; [discord](https://discord.com/invite/VuDakSctNX)
+<br>&#x1F538; [explorer](https://explorer.pulsarcoin.info/) 
+<br>&#x1F538; [twitter](https://twitter.com/TeamPulsarCoin) 
+<br>&#x1F538; [youtube](https://www.youtube.com/@TeamPulsarCoin) 
+<br>&#x1F538; [wallet](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/releases) 
+<br>&#x1F538; [web](https://pulsarcoin.info/) 
+<br>&#x1F538; [wiki](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki) 
+<br>&#x1F538; [team PLSR wallet](https://explorer.pulsarcoin.info/address/?address=PuxaWK9Bizsrmk3N4EfxFsvk2k5C6DbikR) 
+<br>&#x1F538; [team LTC wallet](https://litecoinspace.org/address/ltc1q5vn626f996lx3lgc7s7rfyjzwkq6jm6fh9g2ly9c528w5jgsrr0szsfd9e)
