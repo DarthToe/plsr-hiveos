@@ -1,9 +1,14 @@
 # plsr-hiveos
 Pulsar Coin ("PLSR") transaction node installer for HiveOS
 
-## Purpose
+# links
+[Linktree](https://linktr.ee/teampulsarcoin) &#x1F538; [Discord](https://discord.com/invite/VuDakSctNX) &#x1F538; [Explorer](https://explorer.pulsarcoin.info/) &#x1F538; [Twitter](https://twitter.com/TeamPulsarCoin) &#x1F538; [YouTube](https://www.youtube.com/@TeamPulsarCoin) &#x1F538; [Wallet](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/releases) &#x1F538; [Web](https://pulsarcoin.info/) &#x1F538; [Wiki](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki) &#x1F538; [Team PLSR Wallet](https://explorer.pulsarcoin.info/address/?address=PuxaWK9Bizsrmk3N4EfxFsvk2k5C6DbikR) &#x1F538; [Team LTC Wallet](https://litecoinspace.org/address/ltc1q5vn626f996lx3lgc7s7rfyjzwkq6jm6fh9g2ly9c528w5jgsrr0szsfd9e)
+
+# purpose
 1. These simple scripts are meant to be run in a HiveOS shell; their purpose supports Pulsar Coin in a HiveOS environment. 
 2. Raise awareness to boost [Investment Mining of Pulsar](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki/03-PLSR-Acquisition#-investment-mining).
+
+## files
 
 `install-pulsar.sh` -- install destination of files will be in **/.pulsar** drectory; remember to chmod +x this file.
 <br>automatically install the Pulsar Coin daemon, *pulsard*, as a service. HiveOS updates upon initialization; required Linux dependencies for pulsard daemon are automatically installed ;the latest blocks and chainstate bootstrap available from the [official Pulsar Coin github](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/releases) is downloaded and installed to bring the daemon into syncronization as soon as possible. 
@@ -14,7 +19,7 @@ Pulsar Coin ("PLSR") transaction node installer for HiveOS
 `cloudflare-service-installer.sh` -- put in same directory as cloudflare-ddns.sh; remember to chmod +x this file.
 <br>creates programming and files necessary to run cloudflare-ddns.sh as a service; default config is to auto-check for an IP change once per hour.
 
-## Preparation
+## preparation
 1. Use a provisioning computer to [download a HiveOS image](https://download.hiveos.farm/).
 2. Use either [Rufus](https://rufus.ie/en/) or [Etcher](https://etcher.balena.io/#download-etcher) to burn the image to the NVMe drive that will be placed in the HiveOS machine.
 3. Remember to create the `rig.conf` file on this NVMe drive using `rig-config-example.txt` as a template.
@@ -24,5 +29,5 @@ Pulsar Coin ("PLSR") transaction node installer for HiveOS
 7. You will need to ensure that either: a.) the modem-router forwards port **5995** to the HiveOS installation on the local network; and/or b.) UPnP is active in the router's ettings.
 8. After downloading the script, you will need to **chmod +x** the script in order to run it.
 
-## Security
+# Security
 While possible, it is not recommended that users hold a balance on these installations. Building on this, it is not recommended to enable Proof-of-Stake ("PoS") on *pulsard* through HiveOS.
