@@ -4,7 +4,8 @@
 #
 # This script will setup a Pulsar Relay Node.
 # Verified to work with: 
-#	Ubuntu 20.04: hiveos-0.6-225-beta@240131.img.xz
+#   Ubuntu 22.04: hiveos-0.6-227-beta@240531.img.xz
+#   Ubuntu 20.04: hiveos-0.6-227-stable@240530.img.xz
 #	Ubuntu 18.04: hiveos-0.6-222-stable@230512.img.xz
 #
 # It is not recommended to hold a balance or enable wallet PoS on this installation.
