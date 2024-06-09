@@ -2,7 +2,8 @@
 Pulsar Coin ("PLSR") transaction node installer for HiveOS
 
 ## Purpose
-These simple scripts are meant to be run in a HiveOS shell; their purpose supports Pulsar Coin in a HiveOS environment. 
+1. These simple scripts are meant to be run in a HiveOS shell; their purpose supports Pulsar Coin in a HiveOS environment. 
+2. Raise awareness to boost [Investment Mining of Pulsar](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/wiki/03-PLSR-Acquisition#-investment-mining).
 
 `install-pulsar.sh` -- install destination of files will be in **/.pulsar** drectory; remember to chmod +x this file.
 <br>automatically install the Pulsar Coin daemon, *pulsard*, as a service. HiveOS updates upon initialization; required Linux dependencies for pulsard daemon are automatically installed ;the latest blocks and chainstate bootstrap available from the [official Pulsar Coin github](https://github.com/Pulsar-Coin/Pulsar-Coin-Cryptocurrency/releases) is downloaded and installed to bring the daemon into syncronization as soon as possible. 
